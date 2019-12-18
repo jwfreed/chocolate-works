@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby-link';
+import Link from 'gatsby-link';
 
 const Menu = () => (
   <div
@@ -13,11 +13,9 @@ const Menu = () => (
         display: 'flex',
         justifyContent: 'space-evenly'
       }}>
+      <li><Link to='/'>Home</Link></li>
       <li>
-        <Link to='/'>Home</Link>
-      </li>
-      <li>
-        <Link to='/birthdays'>Home</Link>
+        <Link to='/birthdays'>Birthdays</Link>
       </li>
       <li>
         <Link to='/workshops'>Workshops</Link>
@@ -28,5 +26,4 @@ const Menu = () => (
     </ul>
   </div>
 );
-
 export default Menu;
