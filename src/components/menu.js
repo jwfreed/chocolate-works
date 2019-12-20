@@ -5,13 +5,17 @@ const Menu = () => (
   <div
     style={{
       background: '#7e1323',
-      paddingTop: '10px'
+      paddingTop: '10px',
+      display: 'flex',
+      justifyContent: 'center'
     }}>
     <ul
       style={{
         listStyle: 'none',
         display: 'flex',
-        justifyContent: 'space-evenly'
+        justifyContent: 'space-evenly',
+        width: '75%',
+        marginBottom: '0.45rem'
       }}>
       <li><Link to='/'>Home</Link></li>
       <li>

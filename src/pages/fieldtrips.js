@@ -1,6 +1,6 @@
 import React from 'react';
+
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
 const FieltripsPage = () => (
@@ -8,7 +8,6 @@ const FieltripsPage = () => (
     <SEO title='Fieldtrips' />
     <h1>Fieldtrips</h1>
     <p>Welcome to Fieldtrips page</p>
-    <Image />
   </Layout>
 );
 
