@@ -4,8 +4,6 @@ import Link from 'gatsby-link';
 const Menu = () => (
   <div
     style={{
-      background: '#7e1323',
-      paddingTop: '10px',
       display: 'flex',
       justifyContent: 'center'
     }}>
@@ -15,7 +13,7 @@ const Menu = () => (
         display: 'flex',
         justifyContent: 'space-evenly',
         width: '75%',
-        marginBottom: '0.45rem'
+        marginBottom: '0rem'
       }}>
       <li>
         <Link to='/'>Home</Link>

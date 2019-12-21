@@ -8,19 +8,25 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
-      marginBottom: `0`
+      marginBottom: `0`,
+      display: 'flex',
+      justifyContent: 'center',
+      flexDirection: 'column'
     }}>
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `0rem 1.0875rem`,
-        display: 'flex',
-        justifyContent: 'center'
       }}>
       <Link to='/' style={{}}>
         <div style={{ margin: 0 }}>
-          <img src={logo} alt='Logo' />
+          <img
+            src={logo}
+            alt='Logo'
+            style={{
+              marginBottom: '0px'
+            }}
+          />
         </div>
       </Link>
     </div>
