@@ -17,7 +17,9 @@ const Menu = () => (
         width: '75%',
         marginBottom: '0.45rem'
       }}>
-      <li><Link to='/'>Home</Link></li>
+      <li>
+        <Link to='/'>Home</Link>
+      </li>
       <li>
         <Link to='/birthdays'>Birthdays</Link>
       </li>
