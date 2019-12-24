@@ -11,37 +11,37 @@ const FieltripsPage = props => (
     <h1>Fieldtrips</h1>
     <p>Welcome to Fieldtrips page</p>
     <div className='row'>
-      <div className='col'>
+      <div className='col-2'>
         <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
-          soluta similique eligendi enim expedita suscipit. Quod consequuntur,
-          eos perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
-          tempora maxime iusto et!
-        </p>
       </div>
+      <p className='col-2'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+        soluta similique eligendi enim expedita suscipit. Quod consequuntur, eos
+        perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
+        tempora maxime iusto et!
+      </p>
     </div>
     <div className='row'>
-      <div className='col'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
-          soluta similique eligendi enim expedita suscipit. Quod consequuntur,
-          eos perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
-          tempora maxime iusto et!
-        </p>
+      <p className='col-2'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+        soluta similique eligendi enim expedita suscipit. Quod consequuntur, eos
+        perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
+        tempora maxime iusto et!
+      </p>
+      <div className='col-2'>
         <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
       </div>
     </div>
     <div className='row'>
-      <div className='col'>
+      <div className='col-2'>
         <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
-          soluta similique eligendi enim expedita suscipit. Quod consequuntur,
-          eos perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
-          tempora maxime iusto et!
-        </p>
       </div>
+      <p className='col-2'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+        soluta similique eligendi enim expedita suscipit. Quod consequuntur, eos
+        perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
+        tempora maxime iusto et!
+      </p>
     </div>
   </Layout>
 );
