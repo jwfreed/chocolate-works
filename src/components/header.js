@@ -7,7 +7,7 @@ import React from 'react';
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#422423`,
       marginBottom: `0`,
       display: 'flex',
       justifyContent: 'center',
@@ -16,15 +16,16 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 960
       }}>
       <Link to='/' style={{}}>
-        <div style={{ margin: 0 }}>
+        <div style={{ margin: '0px', padding: '0px', width: '170px' }}>
           <img
             src={logo}
             alt='Logo'
             style={{
-              marginBottom: '0px'
+              marginBottom: '0px',
+              padding: '0px, 0px'
             }}
           />
         </div>
