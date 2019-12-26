@@ -8,8 +8,12 @@ import SEO from '../components/seo';
 const WorkshopPage = props => (
   <Layout>
     <SEO title='Workshops' />
-    <h1>Workshops</h1>
-    <p>Welcome to Workshops page</p>
+    <h1
+      style={{
+        textAlign: 'center'
+      }}>
+      Create an Unforgettable Workshop with Us
+    </h1>
     <div className='row'>
       <div className='col-2'>
         <Img fluid={props.data.imageOne.childImageSharp.fluid} />

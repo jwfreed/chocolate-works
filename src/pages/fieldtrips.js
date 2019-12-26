@@ -8,8 +8,12 @@ import SEO from '../components/seo';
 const FieltripsPage = props => (
   <Layout>
     <SEO title='Fieldtrips' />
-    <h1>Fieldtrips</h1>
-    <p>Welcome to Fieldtrips page</p>
+    <h1
+      style={{
+        textAlign: 'center'
+      }}>
+      Take the Kids to Explore the World of Chocolate
+    </h1>
     <div className='row'>
       <div className='col-2'>
         <Img fluid={props.data.imageOne.childImageSharp.fluid} />

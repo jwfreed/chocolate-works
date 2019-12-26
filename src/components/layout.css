@@ -633,8 +633,15 @@ pre tt:after {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+p.col-2 {
+  padding: 30px;
 }
 
 .col-2 {
   width: 50%;
+  padding: 10px;
 }

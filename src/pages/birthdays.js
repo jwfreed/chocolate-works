@@ -8,40 +8,46 @@ import SEO from '../components/seo';
 const BirthdayPage = props => (
   <Layout>
     <SEO title='Birthday Parties' />
-    <h1>Birthday Parties</h1>
-    <p>Welcome to birthday parties page</p>
-    <div className='row'>
-      <div className='col-2'>
-        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+    <div className='birthday-background'>
+      <h1
+        style={{
+          textAlign: 'center'
+        }}>
+        Plan an Exciting and Worry Free Birthday Party
+      </h1>
+      <div className='row'>
+        <div className='col-2'>
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+        </div>
+        <p className='col-2'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+          soluta similique eligendi enim expedita suscipit. Quod consequuntur,
+          eos perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
+          tempora maxime iusto et!
+        </p>
       </div>
-      <p className='col-2'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
-        soluta similique eligendi enim expedita suscipit. Quod consequuntur, eos
-        perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
-        tempora maxime iusto et!
-      </p>
-    </div>
-    <div className='row'>
-      <p className='col-2'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
-        soluta similique eligendi enim expedita suscipit. Quod consequuntur, eos
-        perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
-        tempora maxime iusto et!
-      </p>
-      <div className='col-2'>
-        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+      <div className='row'>
+        <p className='col-2'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+          soluta similique eligendi enim expedita suscipit. Quod consequuntur,
+          eos perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
+          tempora maxime iusto et!
+        </p>
+        <div className='col-2'>
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        </div>
       </div>
-    </div>
-    <div className='row'>
-      <div className='col-2'>
-        <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+      <div className='row'>
+        <div className='col-2'>
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+        </div>
+        <p className='col-2'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+          soluta similique eligendi enim expedita suscipit. Quod consequuntur,
+          eos perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
+          tempora maxime iusto et!
+        </p>
       </div>
-      <p className='col-2'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
-        soluta similique eligendi enim expedita suscipit. Quod consequuntur, eos
-        perspiciatis quisquam, dolorum repellendus deleniti maiores eaque
-        tempora maxime iusto et!
-      </p>
     </div>
   </Layout>
 );
